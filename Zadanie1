@@ -1,0 +1,17 @@
+public class Kwadrat{
+    public int bok;
+
+    public Kwadrat(int bok){
+        this.bok=bok;
+    }
+
+    public void Obwod(){
+        int obwod = bok*4;
+        System.out.println("Obwód = "+obwod+"cm");
+    }
+
+    public void Pole(){
+        int pole = bok*bok;
+        System.out.println("Pole = "+pole+"cm^2");
+    }
+}
