@@ -1,0 +1,25 @@
+public class Wiatrak {
+    public final int SLOW = 1;
+    public final int MEDIUM = 2;
+    public final int FAST = 3;
+    public int speed;
+    public boolean on;
+    public double radius;
+    public String color;
+
+    public Wiatrak() {
+        this.speed = MEDIUM;
+        this.on = true;
+        this.radius = 2;
+        this.color = "brown";
+    }
+
+    public void info(){
+        System.out.println("Wiatrak działa z predkością: "+ speed+"\n" +
+                "jest teraz włączony: "+on+"\n" +
+                "jego średnica wynosi: "+radius+"\n" +
+                "jest koloru: "+color);
+
+    }
+
+}
