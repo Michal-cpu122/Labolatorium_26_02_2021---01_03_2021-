@@ -1,4 +1,6 @@
-public class Kwadrat{
+package com.company;
+
+public class Kwadrat {
     public int bok;
 
     public Kwadrat(int bok){
@@ -15,3 +17,6 @@ public class Kwadrat{
         System.out.println("Pole = "+pole+"cm^2");
     }
 }
+}
+
+
