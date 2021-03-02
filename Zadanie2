@@ -1,0 +1,18 @@
+public class Punkt {
+    public int x, y;
+
+    public Punkt(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public void odlegloscXY(int x, int y){
+        double odleglosc = Math.sqrt(Math.pow(this.x - x,2) + Math.pow(this.y - y,2));
+        System.out.println("Odległość wynosi punktów: " + odleglosc);
+    }
+
+    public void odlegloscP(Punkt p){
+        double odleglosc = Math.sqrt(Math.pow(p.x - x,2) + Math.pow(p.y - y,2));
+        System.out.println("Odleglosc wynosi punktów: " + odleglosc);
+    }
+}
